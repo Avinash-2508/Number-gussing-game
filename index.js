@@ -17,7 +17,6 @@ guessInput.addEventListener('keypress', function(e) {
     }
 });
         
-// Game functions
 function checkGuess() {
 const userGuess = parseInt(guessInput.value);
             
