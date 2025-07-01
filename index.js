@@ -75,7 +75,6 @@ function createConfetti() {
         confetti.style.height = confetti.style.width;
         confettiContainer.appendChild(confetti);
                 
-        // Remove confetti after animation completes
         setTimeout(() => {
             confetti.remove();
             }, 5000);
