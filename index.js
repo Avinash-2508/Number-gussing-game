@@ -31,7 +31,6 @@ attempts++;
 attemptsDisplay.textContent = attempts;
             
 if (userGuess === targetNumber) {
-    // Correct guess
     message.innerHTML = `🎉 <span class="font-bold">Correct!</span> You guessed the number in ${attempts} attempts! 🎉`;
     message.className = "text-green-400";
     guessInput.disabled = true;
