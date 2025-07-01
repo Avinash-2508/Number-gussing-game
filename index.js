@@ -39,7 +39,6 @@ if (userGuess === targetNumber) {
     hintDisplay.textContent = "You won!";
 } 
 else if (attempts >= maxAttempts) {
-    // Game over
     message.textContent = `Game over! The number was ${targetNumber}.`;
     message.className = "text-red-400";
     guessInput.disabled = true;
