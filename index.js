@@ -3,7 +3,6 @@ let attempts = 0;
 const maxAttempts = 10;
 const confettiColors = ['#f00', '#0f0', '#00f', '#ff0', '#f0f', '#0ff'];
         
-// DOM elements
 const guessInput = document.getElementById('guessInput');
 const guessButton = document.getElementById('guessButton');
 const message = document.getElementById('message');
