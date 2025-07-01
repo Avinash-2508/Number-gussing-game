@@ -10,7 +10,6 @@ const attemptsDisplay = document.getElementById('attempts');
 const hintDisplay = document.getElementById('hint');
 const confettiContainer = document.getElementById('confetti-container');
         
-// Event listeners
 guessButton.addEventListener('click', checkGuess);
 guessInput.addEventListener('keypress', function(e) {
     if (e.key === 'Enter') {
