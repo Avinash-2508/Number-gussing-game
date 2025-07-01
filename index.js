@@ -58,7 +58,6 @@ else {
     }
 }
             
-            // Clear input
             guessInput.value = '';
             guessInput.focus();
         }
