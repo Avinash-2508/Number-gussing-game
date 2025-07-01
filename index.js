@@ -20,7 +20,7 @@ guessInput.addEventListener('keypress', function(e) {
 function checkGuess() {
 const userGuess = parseInt(guessInput.value);
             
-// Validate input
+
 if (isNaN(userGuess) || userGuess < 1 || userGuess > 100) {
     message.textContent = "Please enter a valid number between 1 and 100!";
     message.className = "text-red-400";
