@@ -46,7 +46,6 @@ else if (attempts >= maxAttempts) {
     hintDisplay.textContent = "Game over!";
 } 
 else {
-    // Provide hint
     if (userGuess < targetNumber) {
         message.textContent = "Too low! Try a higher number.";
         message.className = "text-blue-300";
