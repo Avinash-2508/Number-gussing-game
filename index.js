@@ -82,4 +82,4 @@ function createConfetti() {
         }
         }
         
-guessInput.focus();
+guessInput.focus()
