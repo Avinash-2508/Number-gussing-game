@@ -30,7 +30,6 @@ if (isNaN(userGuess) || userGuess < 1 || userGuess > 100) {
 attempts++;
 attemptsDisplay.textContent = attempts;
             
-// Check guess against target number
 if (userGuess === targetNumber) {
     // Correct guess
     message.innerHTML = `🎉 <span class="font-bold">Correct!</span> You guessed the number in ${attempts} attempts! 🎉`;
